@@ -1,0 +1,19 @@
+name: merging-env
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.9
+  - transformers==4.11.3
+  - datasets==1.11.0
+  - numpy==1.21.2
+  - scikit-learn==0.24.2
+  - tensorboard==2.6.0
+  - sentencepiece==0.1.96
+  - pyyaml==5.4.1
+  - tqdm==4.49.0
+  - pip
+  - pip:
+    - matplotlib
+    - seaborn
+    - torch==1.12.1
